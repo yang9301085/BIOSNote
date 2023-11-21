@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU/CPU information.md",
-                "mode": "source",
+                "file": "Common/AC load line.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,14 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPU/CPU information.md",
+                "file": "Common/AC load line.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,9 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPU/CPU information.md",
+                "file": "Common/AC load line.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -125,15 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPU/CPU information.md"
+                "file": "Common/AC load line.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 290.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -148,12 +149,15 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a13363d2c722dcdb",
+  "active": "937d222006e5f27c",
   "lastOpenFiles": [
+    "Pasted image 20231121175334.png",
+    "Common/AC load line.md",
+    "CPU/CPU information.md",
+    "未命名",
     "note",
     "Assembly",
     "CPU/深入UEFI内核.md",
-    "CPU/CPU information.md",
     "MSCV Compiler/cl.exe & link.exe.md.md",
     "MSCV Compiler/MSVC_MindMap.canvas",
     "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md",
