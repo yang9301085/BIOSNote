@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "c7b447175134eace",
+    "type": "split",
+    "children": [
+      {
+        "id": "10586773b7a3d8f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "937d222006e5f27c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPU/CPU information.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f167395b9a0fac50",
+    "type": "split",
+    "children": [
+      {
+        "id": "b121e9559d0de297",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a13363d2c722dcdb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9dfcf32280af0575",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a6b6b17a2af38508",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e613f262587f6a07",
+    "type": "split",
+    "children": [
+      {
+        "id": "023c71aed71dbebe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03e5e6c86e89c50b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPU/CPU information.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15f59dc0ef0f5b82",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CPU/CPU information.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bcef1191cd0226b3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "30f3cd1156cd8fdc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPU/CPU information.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "a13363d2c722dcdb",
+  "lastOpenFiles": [
+    "note",
+    "Assembly",
+    "CPU/深入UEFI内核.md",
+    "CPU/CPU information.md",
+    "MSCV Compiler/cl.exe & link.exe.md.md",
+    "MSCV Compiler/MSVC_MindMap.canvas",
+    "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md",
+    "Common",
+    "MSCV Compiler",
+    "CPU"
+  ]
+}

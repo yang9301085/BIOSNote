@@ -1,0 +1,1 @@
+* Microsoft Visual C++ (MSVC) 是 Windows Visual Studio 的一部分，指 C++、C 和汇编语言开发工具和库。 这些工具和库可用于创建本机 Windows 桌面和服务器应用程序、通用 Windows 平台 (UWP) 应用或使用 .NET Framework 的托管应用和库。 创建在 Windows、Linux、Android 和 iOS 上运行的跨平台库和应用。 从 Windows 桌面的简单控制台应用到最复杂的应用等所有内容都可以使用 MSVC 编写。 为移动设备编写设备驱动程序和操作系统组件或跨平台游戏。 从 Azure 云中的最小 IoT 设备到多服务器高性能计算等所有内容都可以作为目标。
