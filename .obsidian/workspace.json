@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/AC load line.md",
+                "file": "BIOS Setup Menu/Advanced Page.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/AC load line.md",
+                "file": "BIOS Setup Menu/Advanced Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/AC load line.md",
+                "file": "BIOS Setup Menu/Advanced Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/AC load line.md"
+                "file": "BIOS Setup Menu/Advanced Page.md"
               }
             }
           }
@@ -149,12 +149,16 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "937d222006e5f27c",
+  "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
-    "Pasted image 20231121175334.png",
+    "计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
+    "552884 汇编语言  基于x86处理器.pdf",
     "Common/AC load line.md",
+    "BIOS Setup Menu/Advanced Page.md",
+    "BIOS Setup Menu/Advanced.png",
+    "BIOS Setup Menu",
+    "Pasted image 20231121175334.png",
     "CPU/CPU information.md",
-    "未命名",
     "note",
     "Assembly",
     "CPU/深入UEFI内核.md",
