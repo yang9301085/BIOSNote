@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BIOS Setup Menu/Advanced Page.md",
+                "file": "Common/WDT.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BIOS Setup Menu/Advanced Page.md",
+                "file": "Common/WDT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BIOS Setup Menu/Advanced Page.md",
+                "file": "Common/WDT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BIOS Setup Menu/Advanced Page.md"
+                "file": "Common/WDT.md"
               }
             }
           }
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,10 +150,14 @@
   },
   "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
-    "计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
+    "WDT.pdf",
     "552884 汇编语言  基于x86处理器.pdf",
-    "Common/AC load line.md",
+    "Common/WDT.md",
+    "Memory/Memory Controller.md",
     "BIOS Setup Menu/Advanced Page.md",
+    "Memory",
+    "计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
+    "Common/AC load line.md",
     "BIOS Setup Menu/Advanced.png",
     "BIOS Setup Menu",
     "Pasted image 20231121175334.png",
