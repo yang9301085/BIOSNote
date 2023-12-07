@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"ab41a6ddd877c69a","type":"file","file":"Assembly/[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf","x":-62,"y":-11,"width":400,"height":400},
+		{"id":"cb6c6ebdb4538429","type":"file","file":"Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf","x":828,"y":-11,"width":400,"height":400},
+		{"id":"bdf784e173979853","type":"file","file":"Assembly/552884 汇编语言  基于x86处理器.pdf","x":380,"y":-11,"width":400,"height":400},
+		{"id":"30938e018f383570","type":"file","file":"Assembly/Assembly.canvas","x":1273,"y":-11,"width":400,"height":400},
+		{"id":"39c93b186ca0eba7","type":"text","text":"Assembly","x":20,"y":-240,"width":156,"height":60},
+		{"id":"c4b3849f0b15d52a","x":873,"y":880,"width":400,"height":400,"type":"file","file":"Assembly/存储器.md"}
+	],
+	"edges":[
+		{"id":"7ee6905f29dfc6cf","fromNode":"ab41a6ddd877c69a","fromSide":"top","toNode":"39c93b186ca0eba7","toSide":"bottom"},
+		{"id":"4e1fc31716bb02f0","fromNode":"bdf784e173979853","fromSide":"top","toNode":"39c93b186ca0eba7","toSide":"bottom"},
+		{"id":"25b0c76cc4ff808b","fromNode":"cb6c6ebdb4538429","fromSide":"top","toNode":"39c93b186ca0eba7","toSide":"bottom"},
+		{"id":"2abe1a779c03d9b4","fromNode":"c4b3849f0b15d52a","fromSide":"top","toNode":"cb6c6ebdb4538429","toSide":"bottom"}
+	]
+}

@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "10586773b7a3d8f5",
+        "id": "3dcd19641238d00b",
         "type": "tabs",
         "children": [
           {
-            "id": "937d222006e5f27c",
+            "id": "d0e3690eed864e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/WDT.md",
+                "file": "Common/AUDIO.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "a597aee1b0e53cd9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "WDT.pdf"
               }
             }
           }
@@ -85,14 +95,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/WDT.md",
-                "collapseAll": false,
+                "file": "Common/AUDIO.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/WDT.md",
+                "file": "Common/AUDIO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,16 +135,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/WDT.md"
+                "file": "Common/AUDIO.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,28 +158,47 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a13363d2c722dcdb",
+  "active": "d0e3690eed864e39",
   "lastOpenFiles": [
+    "Common/SPEC/high-definition-audio-specification.pdf",
+    "Common/AUDIO.md",
+    "Common/SPEC/ALC662-GR.pdf",
+    "Common/SPEC",
+    "Pasted image 20231207163131.png",
+    "Pasted image 20231207163021.png",
+    "Common/Image/Pasted image 20231207162918.png",
+    "Common/Image/Pasted image 20231207162319.png",
+    "Common/Image/Pasted image 20231207161817.png",
+    "Common/Image/Pasted image 20231207161534.png",
+    "Realtek High Definition Audio Pin Configuration.lnk",
     "WDT.pdf",
-    "552884 汇编语言  基于x86处理器.pdf",
-    "Common/WDT.md",
+    "Test.md",
+    "未命名",
+    "Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
+    "Assembly/Assembly.canvas",
+    "Assembly/存储器.md",
+    "Assembly/552884 汇编语言  基于x86处理器.pdf",
+    "未命名.canvas",
+    "Assembly/[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf",
+    "Common/Image/Pasted image 20231129112156.png",
+    "Assembly/Image/Pasted image 20231129112220.png",
+    "Assembly/Image/Pasted image 20231129112138.png",
+    "Assembly/Image",
+    "Assembly/Image/Pasted image 20231129112044.png",
     "Memory/Memory Controller.md",
-    "BIOS Setup Menu/Advanced Page.md",
-    "Memory",
-    "计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
-    "Common/AC load line.md",
-    "BIOS Setup Menu/Advanced.png",
-    "BIOS Setup Menu",
-    "Pasted image 20231121175334.png",
-    "CPU/CPU information.md",
-    "note",
-    "Assembly",
-    "CPU/深入UEFI内核.md",
-    "MSCV Compiler/cl.exe & link.exe.md.md",
+    "SuperIO/SuperIO.canvas",
     "MSCV Compiler/MSVC_MindMap.canvas",
     "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md",
-    "Common",
-    "MSCV Compiler",
-    "CPU"
+    "MSCV Compiler/cl.exe & link.exe.md.md",
+    "SuperIO/Intel 8042.md",
+    "Common/BIOS 缩短第一次开机时间.md",
+    "Common/Memory 关channel.md",
+    "Common/Dump Variable in shell.md",
+    "Common/BIOS 系统语言.md",
+    "CPU/深入UEFI内核.md",
+    "CPU/CPU information.md",
+    "BIOS Setup Menu/Advanced Page.md",
+    "Common/AC load line.md",
+    "Common/WDT.md"
   ]
 }
