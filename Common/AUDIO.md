@@ -30,16 +30,36 @@ Continue...
 
 
 
-
-
-
-
-
-
-
-
-
 ## BIOS Code中VerbTable配置 
+
+```c
+/**
+  Azalia verb table header
+  Every verb table should contain this defined header and followed by azalia verb commands.
+**/
+typedef struct {
+  UINT16  VendorId;             ///< Codec Vendor ID
+  UINT16  DeviceId;             ///< Codec Device ID
+  UINT8   RevisionId;           ///< Revision ID of the codec. 0xFF matches any revision.
+  UINT8   SdiNum;               ///< SDI number, 0xFF matches any SDI.
+  UINT16  DataDwords;           ///< Number of data DWORDs following the header.
+} HDA_VERB_TABLE_HEADER;
+
+
+typedef struct  {
+  HDA_VERB_TABLE_HEADER  Header;
+  UINT32 Data[];
+} HDAUDIO_VERB_TABLE;
+
+/**
+	makefile and ELink Gen OEM_HDA_VERB_TABLE
+	{0x10EC, 0x0662, 0xFF, 0xFF, 60} for HDAUDIO_VERB_TABLE->Header
+	ACL_662_MIC_1_FRONT_SURR_EAPD for HDAUDIO_VERB_TABLE->Data
+*/
+#define OEM_HDA_VERB_TABLE {{0x8086, 0x280F, 0xFF, 0xFF, 18}, OemHdaVerbTableDisplayAudio}, {{0x10EC, 0x0700, 0xFF, 0xFF, 644}, OemHdaVerbTblSample}, {{0x10EC, 0x0662, 0xFF, 0xFF, 60}, ACL_662_MIC_1_FRONT_SURR_EAPD},
+```
+
+
 
 ```c
 VOID AmiInstallOemHdaVerbTables (
@@ -277,10 +297,33 @@ UINT32 ACL_662_MIC_1_FRONT_SURR_EAPD[]={
 0x01E71D11,
 0x01E71E11,
 0x01E71F41,
-//;Pin widget 0x1F - S/PDIF-IN
-0x01F71C30,
-0x01F71D11,
-0x01F71E45,
-0x01F71F01,
 };
 ```
+
+### VerbTable  结构
+
+![[Pasted image 20231207172116.png]]
+
+eg：
+```C
+//Pin widget 0x14 - FRONT (Port-D)
+0x01471C20,
+0x01471D40,
+0x01471E01,
+0x01471F01,
+```
+
+![[Pasted image 20231207173354.png]]
+
+* NID 和Verb的说明
+![[Pasted image 20231207173707.png]]
+Verb ID `71C`  / `71D` / `71E` / `71F` 这4个Bytes是为Codec配置Default 值，共32 bits
+![[Pasted image 20231207174709.png]]
+
+这4个Bytes对应的是 Configuration Default register Data Structure
+![[Pasted image 20231207174859.png]]
+
+
+这一部分配置可以用Realtek的 HDACfg tool来配置：
+![[Pasted image 20231207180929.png]]
+
