@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/AUDIO.md",
+                "file": "Common/logo.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a597aee1b0e53cd9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "WDT.pdf"
               }
             }
           }
@@ -79,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 391.5
   },
   "right": {
     "id": "e613f262587f6a07",
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/AUDIO.md",
+                "file": "Common/logo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/AUDIO.md",
+                "file": "Common/logo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/AUDIO.md"
+                "file": "Common/logo.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,20 +151,23 @@
   },
   "active": "d0e3690eed864e39",
   "lastOpenFiles": [
-    "Common/Image/Pasted image 20231207180929.png",
+    "Common/Image/Pasted image 20231220114907.png",
+    "Common/logo.md",
+    "Common/Image/Pasted image 20231220114903.png",
+    "Common/Image/Pasted image 20231220114858.png",
+    "Common/Image/Pasted image 20231220114821.png",
+    "Common/Image/Pasted image 20231220114350.png",
+    "Common/Secure Boot.md",
+    "Common/BIOS setup UI add item.md",
     "Common/AUDIO.md",
+    "Common/Image/Pasted image 20231207180929.png",
     "Common/Image/Pasted image 20231207174859.png",
     "Common/Image/Pasted image 20231207174709.png",
     "Common/Image/Pasted image 20231207173707.png",
     "Common/Image/Pasted image 20231207173354.png",
-    "Common/Image/Pasted image 20231207173301.png",
-    "Common/Image/Pasted image 20231207172116.png",
     "Common/SPEC/high-definition-audio-specification.pdf",
     "Common/SPEC/ALC662-GR.pdf",
     "Common/SPEC",
-    "Common/Image/Pasted image 20231207163131.png",
-    "Common/Image/Pasted image 20231207163021.png",
-    "Common/Image/Pasted image 20231207162918.png",
     "Realtek High Definition Audio Pin Configuration.lnk",
     "WDT.pdf",
     "Test.md",
