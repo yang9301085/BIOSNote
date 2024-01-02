@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"19f0e6da715254c0","type":"file","file":"SuperIO/Intel 8042.md","x":-249,"y":240,"width":400,"height":400},
+		{"id":"fc631a16cec9681a","type":"text","text":"SuperIO","x":-116,"y":-33,"width":134,"height":60}
+	],
+	"edges":[
+		{"id":"d461dea671093818","fromNode":"19f0e6da715254c0","fromSide":"top","toNode":"fc631a16cec9681a","toSide":"bottom"}
+	]
+}
