@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/WDT.md",
-                "mode": "preview",
+                "file": "EnglishLearn/Irresistible lightness of being.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/WDT.md",
+                "file": "EnglishLearn/Irresistible lightness of being.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/WDT.md",
+                "file": "EnglishLearn/Irresistible lightness of being.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/WDT.md"
+                "file": "EnglishLearn/Irresistible lightness of being.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,11 +148,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a13363d2c722dcdb",
+  "active": "03e5e6c86e89c50b",
   "lastOpenFiles": [
+    "Common/WDT.md",
+    "EnglishLearn/Irresistible lightness of being.md",
+    "EnglishLearn",
     "WDT.pdf",
     "552884 汇编语言  基于x86处理器.pdf",
-    "Common/WDT.md",
     "Memory/Memory Controller.md",
     "BIOS Setup Menu/Advanced Page.md",
     "Memory",
@@ -169,7 +171,6 @@
     "MSCV Compiler/MSVC_MindMap.canvas",
     "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md",
     "Common",
-    "MSCV Compiler",
-    "CPU"
+    "MSCV Compiler"
   ]
 }
