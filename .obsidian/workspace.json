@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EnglishLearn/Irresistible lightness of being.md",
-                "mode": "source",
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EnglishLearn/Irresistible lightness of being.md",
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EnglishLearn/Irresistible lightness of being.md",
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EnglishLearn/Irresistible lightness of being.md"
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.md"
               }
             }
           }
@@ -148,8 +148,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a13363d2c722dcdb",
+  "active": "937d222006e5f27c",
   "lastOpenFiles": [
+    "EnglishLearn/Irresistible lightness of being.md",
+    "EnglishLearn/Livestreaming firms called on to boost governance.md",
     "未命名.canvas",
     "SuperIO/SuperIO.canvas",
     "SuperIO/Intel 8042.md",
@@ -184,7 +186,6 @@
     "Assembly/存储器.md",
     "Assembly/Assembly.canvas",
     "Common/WDT.md",
-    "EnglishLearn/Irresistible lightness of being.md",
     "Memory/Memory Controller.md",
     "BIOS Setup Menu/Advanced Page.md",
     "Common/AC load line.md",
