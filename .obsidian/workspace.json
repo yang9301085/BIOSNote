@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/logo.md",
+                "file": "Common/Wake on LAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 241.5
   },
   "right": {
     "id": "e613f262587f6a07",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/logo.md",
+                "file": "Common/Wake on LAN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/logo.md",
+                "file": "Common/Wake on LAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/logo.md"
+                "file": "Common/Wake on LAN.md"
               }
             }
           }
@@ -146,13 +146,22 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "zk-prefixer:创建时间戳笔记": false
+      "zk-prefixer:创建时间戳笔记": false,
+      "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "d0e3690eed864e39",
+  "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
-    "Common/Image/Pasted image 20231220114907.png",
+    "Common/PCIE/PCIE体系结构导读.pdf",
+    "Common/PCIE",
+    "BIOS_SPEC/PCIE",
+    "Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
+    "Assembly/计算机组成原理第3版 唐朔飞.pdf",
+    "Common/Wake on LAN.md",
+    "EnglishLearn/Cruise ship a key maritime achievement.md",
     "Common/logo.md",
+    "EnglishLearn",
+    "Common/Image/Pasted image 20231220114907.png",
     "Common/Image/Pasted image 20231220114903.png",
     "Common/Image/Pasted image 20231220114858.png",
     "Common/Image/Pasted image 20231220114821.png",
@@ -171,14 +180,9 @@
     "Realtek High Definition Audio Pin Configuration.lnk",
     "WDT.pdf",
     "Test.md",
-    "未命名",
-    "Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
     "Assembly/Assembly.canvas",
     "Assembly/存储器.md",
-    "Assembly/552884 汇编语言  基于x86处理器.pdf",
     "未命名.canvas",
-    "Assembly/[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf",
-    "Assembly/Image",
     "Memory/Memory Controller.md",
     "SuperIO/SuperIO.canvas",
     "MSCV Compiler/MSVC_MindMap.canvas",
