@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/Wake on LAN.md",
-                "mode": "source",
+                "file": "EnglishLearn/Should AI write year-end summaries.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 200
   },
   "right": {
     "id": "e613f262587f6a07",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/Wake on LAN.md",
+                "file": "EnglishLearn/Should AI write year-end summaries.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/Wake on LAN.md",
+                "file": "EnglishLearn/Should AI write year-end summaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/Wake on LAN.md"
+                "file": "EnglishLearn/Should AI write year-end summaries.md"
               }
             }
           }
@@ -152,6 +152,14 @@
   },
   "active": "d0e3690eed864e39",
   "lastOpenFiles": [
+    "BIOS_SPEC/ACPI_Spec_6_5.pdf",
+    "EnglishLearn/Should AI write year-end summaries.md",
+    "Common/WDT.md",
+    "Common/Wake on LAN.md",
+    "Common/PCIE/PCI.md",
+    "EnglishLearn/Livestreaming firms called on to boost governance.md",
+    "Common/PCIE/~~$PCIE体系结构导读.pdf",
+    "EnglishLearn/Irresistible lightness of being.md",
     "Common/Image/Wake on LAN-20240104175421255.webp",
     "Common/Image/Wake on LAN-20240104151429512.webp",
     "Common/AC load line.md",
@@ -163,7 +171,6 @@
     "Common/logo.md",
     "Common/Memory 关channel.md",
     "Common/Secure Boot.md",
-    "Common/Wake on LAN.md",
     "Common/Image/Wake on LAN-20240104175405364.webp",
     "Common/Image/Wake on LAN-20240104175335333.webp",
     "Common/Image/Wake on LAN-20240104175224099.webp",
@@ -171,12 +178,9 @@
     "Common/Image/Wake on LAN-20240104175126812.webp",
     "Common/Image/Wake on LAN-20240104175053475.webp",
     "Common/Image/Wake on LAN-20240104153939337.webp",
-    "Common/PCIE/PCI.md",
     "Common/PCIE/Img/PCI_and_MemoryAdd_80000000.png",
     "Common/PCIE/Img",
     "Common/PCIE/PCIE体系结构导读.pdf",
-    "EnglishLearn/Livestreaming firms called on to boost governance.md",
-    "EnglishLearn/Irresistible lightness of being.md",
     "Common/PCIE",
     "BIOS_SPEC/PCIE",
     "Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
@@ -184,8 +188,6 @@
     "EnglishLearn/Cruise ship a key maritime achievement.md",
     "EnglishLearn",
     "Common/SPEC/high-definition-audio-specification.pdf",
-    "Common/SPEC/ALC662-GR.pdf",
-    "Common/SPEC",
     "Test.md",
     "Assembly/Assembly.canvas",
     "Assembly/存储器.md",
@@ -198,7 +200,6 @@
     "SuperIO/Intel 8042.md",
     "CPU/深入UEFI内核.md",
     "CPU/CPU information.md",
-    "BIOS Setup Menu/Advanced Page.md",
-    "Common/WDT.md"
+    "BIOS Setup Menu/Advanced Page.md"
   ]
 }
