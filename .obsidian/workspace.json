@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3dcd19641238d00b",
+        "id": "10586773b7a3d8f5",
         "type": "tabs",
         "children": [
           {
-            "id": "d0e3690eed864e39",
+            "id": "937d222006e5f27c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Common/Wake on LAN.md",
-                "mode": "source",
-                "source": false
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf"
               }
             }
           }
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 200
   },
   "right": {
     "id": "e613f262587f6a07",
@@ -85,14 +83,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/Wake on LAN.md",
-                "collapseAll": true,
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/Wake on LAN.md",
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,12 +123,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/Wake on LAN.md"
+                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,6 +136,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-day-and-night:Toggle Theme": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -146,58 +144,56 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "obsidian-day-and-night:Toggle Theme": false
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
   "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
     "EnglishLearn/Livestreaming firms called on to boost governance.md",
-    "EnglishLearn/Irresistible lightness of being.md",
+    "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
+    "EnglishLearn/Cruise ship a key maritime achievement.md",
+    "Common/Wake on LAN.md",
     "Common/PCIE/PCIE体系结构导读.pdf",
     "Common/PCIE",
-    "BIOS_SPEC/PCIE",
-    "Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
-    "Assembly/计算机组成原理第3版 唐朔飞.pdf",
-    "Common/Wake on LAN.md",
-    "EnglishLearn/Cruise ship a key maritime achievement.md",
+    "EnglishLearn/Irresistible lightness of being.md",
+    "未命名.canvas",
+    "SuperIO/SuperIO.canvas",
+    "SuperIO/Intel 8042.md",
+    "SuperIO",
+    "Realtek High Definition Audio Pin Configuration.lnk",
+    "HDACfg-V5.29.exe",
     "Common/logo.md",
-    "EnglishLearn",
+    "Common/Secure Boot.md",
+    "Common/SPEC/high-definition-audio-specification.pdf",
+    "Common/SPEC/ALC662-GR.pdf",
+    "Common/SPEC",
+    "Common/Memory 关channel.md",
     "Common/Image/Pasted image 20231220114907.png",
     "Common/Image/Pasted image 20231220114903.png",
     "Common/Image/Pasted image 20231220114858.png",
     "Common/Image/Pasted image 20231220114821.png",
     "Common/Image/Pasted image 20231220114350.png",
-    "Common/Secure Boot.md",
-    "Common/BIOS setup UI add item.md",
-    "Common/AUDIO.md",
     "Common/Image/Pasted image 20231207180929.png",
     "Common/Image/Pasted image 20231207174859.png",
     "Common/Image/Pasted image 20231207174709.png",
     "Common/Image/Pasted image 20231207173707.png",
     "Common/Image/Pasted image 20231207173354.png",
-    "Common/SPEC/high-definition-audio-specification.pdf",
-    "Common/SPEC/ALC662-GR.pdf",
-    "Common/SPEC",
-    "Realtek High Definition Audio Pin Configuration.lnk",
-    "Test.md",
-    "Assembly/Assembly.canvas",
-    "Assembly/存储器.md",
-    "未命名.canvas",
-    "Memory/Memory Controller.md",
-    "SuperIO/SuperIO.canvas",
-    "MSCV Compiler/MSVC_MindMap.canvas",
-    "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md",
-    "MSCV Compiler/cl.exe & link.exe.md.md",
-    "SuperIO/Intel 8042.md",
-    "Common/BIOS 缩短第一次开机时间.md",
-    "Common/Memory 关channel.md",
+    "Common/Image",
     "Common/Dump Variable in shell.md",
+    "Common/BIOS 缩短第一次开机时间.md",
     "Common/BIOS 系统语言.md",
-    "CPU/深入UEFI内核.md",
-    "CPU/CPU information.md",
+    "Common/BIOS setup UI add item.md",
+    "Common/AUDIO.md",
+    "Assembly/存储器.md",
+    "Assembly/Assembly.canvas",
+    "Common/WDT.md",
+    "Memory/Memory Controller.md",
     "BIOS Setup Menu/Advanced Page.md",
     "Common/AC load line.md",
-    "Common/WDT.md"
+    "CPU/CPU information.md",
+    "CPU/深入UEFI内核.md",
+    "MSCV Compiler/cl.exe & link.exe.md.md",
+    "MSCV Compiler/MSVC_MindMap.canvas",
+    "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md"
   ]
 }
