@@ -3,7 +3,8 @@
 **这个Token可以override**
 
 * 所有的FV自己设定的大小和实际所占用的大小都会在build log里面显示出来
-```Log
+
+
 FV Space Information
 FV_MAIN [99%Full] 24100864 (0x16fc000) total, 24100528 (0x16fbeb0) used, 336 (0x150) free
 FV_LOGOROMHOLE [93%Full] 196608 (0x30000) total, 183848 (0x2ce28) used, 12760 (0x31d8) free
@@ -26,7 +27,6 @@ FV_BB1 [42%Full] 262144 (0x40000) total, 111056 (0x1b1d0) used, 151088 (0x24e30)
 FV_BB_AFTER_MEMORY_BACKUP [37%Full] 589824 (0x90000) total, 220640 (0x35de0) used, 369184 (0x5a220) free
 FV_FSP_S_BACKUP [51%Full] 720896 (0xb0000) total, 368752 (0x5a070) used, 352144 (0x55f90) free
 FV_BB_BACKUP [56%Full] 524288 (0x80000) total, 298064 (0x48c50) used, 226224 (0x373b0) free
-```
 
 * 如果Logo文件过大的话，在build的时候会报错FV Size 。。。。。。
 * 改这两个Token扩大logo的FV size
