@@ -11,9 +11,11 @@
             "id": "937d222006e5f27c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf"
+                "file": "EnglishLearn/Should AI write year-end summaries.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
+                "file": "EnglishLearn/Should AI write year-end summaries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
+                "file": "EnglishLearn/Should AI write year-end summaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EnglishLearn/Livestreaming firms called on to boost governance.pdf"
+                "file": "EnglishLearn/Should AI write year-end summaries.md"
               }
             }
           }
@@ -147,8 +149,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a13363d2c722dcdb",
+  "active": "937d222006e5f27c",
   "lastOpenFiles": [
+    "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
     "EnglishLearn/Should AI write year-end summaries.md",
     "Common/PCIE/PCI.md",
     "Common/PCIE/Img/PCI_and_MemoryAdd_80000000.png",
@@ -163,7 +166,6 @@
     "Common/Image/Wake on LAN-20240104175224099.webp",
     "Common/Image/Wake on LAN-20240104175201952.webp",
     "EnglishLearn/Livestreaming firms called on to boost governance.md",
-    "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
     "EnglishLearn/Cruise ship a key maritime achievement.md",
     "Common/Wake on LAN.md",
     "Common/PCIE/PCIE体系结构导读.pdf",
