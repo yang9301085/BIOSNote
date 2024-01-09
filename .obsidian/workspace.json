@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3dcd19641238d00b",
+        "id": "a43a1f65b2f9bcef",
         "type": "tabs",
         "children": [
           {
-            "id": "d0e3690eed864e39",
+            "id": "0aac27ae20c1b88d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EnglishLearn/Should AI write year-end summaries.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EnglishLearn/Should AI write year-end summaries.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EnglishLearn/Should AI write year-end summaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EnglishLearn/Should AI write year-end summaries.md"
+                "file": "EnglishLearn/Battery makers mull global expansion.md"
               }
             }
           }
@@ -150,10 +144,17 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "d0e3690eed864e39",
+  "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
-    "BIOS_SPEC/ACPI_Spec_6_5.pdf",
+    "EnglishLearn/Battery makers mull global expansion.md",
+    "EDK_LEARN/DSC中的inc.md",
+    "Pasted image 20240108182821.png",
     "EnglishLearn/Should AI write year-end summaries.md",
+    "EDK_LEARN/Lesson-0-master 2.zip",
+    "EDK_LEARN/Lesson-0-master 1.zip",
+    "EDK_LEARN/Lesson-0-master.zip",
+    "EDK_LEARN",
+    "BIOS_SPEC/ACPI_Spec_6_5.pdf",
     "Common/WDT.md",
     "Common/Wake on LAN.md",
     "Common/PCIE/PCI.md",
@@ -178,16 +179,11 @@
     "Common/Image/Wake on LAN-20240104175126812.webp",
     "Common/Image/Wake on LAN-20240104175053475.webp",
     "Common/Image/Wake on LAN-20240104153939337.webp",
-    "Common/PCIE/Img/PCI_and_MemoryAdd_80000000.png",
     "Common/PCIE/Img",
     "Common/PCIE/PCIE体系结构导读.pdf",
     "Common/PCIE",
     "BIOS_SPEC/PCIE",
-    "Assembly/计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf",
-    "Assembly/计算机组成原理第3版 唐朔飞.pdf",
     "EnglishLearn/Cruise ship a key maritime achievement.md",
-    "EnglishLearn",
-    "Common/SPEC/high-definition-audio-specification.pdf",
     "Test.md",
     "Assembly/Assembly.canvas",
     "Assembly/存储器.md",
@@ -199,7 +195,6 @@
     "MSCV Compiler/cl.exe & link.exe.md.md",
     "SuperIO/Intel 8042.md",
     "CPU/深入UEFI内核.md",
-    "CPU/CPU information.md",
-    "BIOS Setup Menu/Advanced Page.md"
+    "CPU/CPU information.md"
   ]
 }
