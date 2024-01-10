@@ -11,8 +11,12 @@
             "id": "0aac27ae20c1b88d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "EnglishLearn/Battery makers mull global expansion.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "EnglishLearn/Battery makers mull global expansion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "EnglishLearn/Battery makers mull global expansion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,11 +152,14 @@
   },
   "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
+    "EnglishLearn/Livestreaming firms called on to boost governance.md",
+    "EnglishLearn/Battery makers mull global expansion.md",
     "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
+    "EnglishLearn/Should AI write year-end summaries.md",
+    "EnglishLearn/Cruise ship a key maritime achievement.md",
     "EnglishLearn/Battery makers mull global expansion.md",
     "EDK_LEARN/DSC中的inc.md",
     "Pasted image 20240108182821.png",
-    "EnglishLearn/Should AI write year-end summaries.md",
     "EDK_LEARN/Lesson-0-master 2.zip",
     "EDK_LEARN/Lesson-0-master 1.zip",
     "EDK_LEARN/Lesson-0-master.zip",
@@ -159,7 +168,6 @@
     "Common/WDT.md",
     "Common/Wake on LAN.md",
     "Common/PCIE/PCI.md",
-    "EnglishLearn/Livestreaming firms called on to boost governance.md",
     "Common/PCIE/~~$PCIE体系结构导读.pdf",
     "EnglishLearn/Irresistible lightness of being.md",
     "Common/Image/Wake on LAN-20240104175421255.webp",
@@ -183,8 +191,6 @@
     "Common/PCIE/Img",
     "Common/PCIE/PCIE体系结构导读.pdf",
     "Common/PCIE",
-    "BIOS_SPEC/PCIE",
-    "EnglishLearn/Cruise ship a key maritime achievement.md",
     "Test.md",
     "Assembly/Assembly.canvas",
     "Assembly/存储器.md",
