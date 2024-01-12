@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EnglishLearn/Battery makers mull global expansion.md",
+                "file": "Common/Wake on LAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EnglishLearn/Battery makers mull global expansion.md",
+                "file": "Common/Wake on LAN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EnglishLearn/Battery makers mull global expansion.md",
+                "file": "Common/Wake on LAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EnglishLearn/Battery makers mull global expansion.md"
+                "file": "Common/Wake on LAN.md"
               }
             }
           }
@@ -150,14 +150,13 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "a13363d2c722dcdb",
+  "active": "0aac27ae20c1b88d",
   "lastOpenFiles": [
-    "EnglishLearn/Livestreaming firms called on to boost governance.md",
     "EnglishLearn/Battery makers mull global expansion.md",
+    "EnglishLearn/Livestreaming firms called on to boost governance.md",
     "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
     "EnglishLearn/Should AI write year-end summaries.md",
     "EnglishLearn/Cruise ship a key maritime achievement.md",
-    "EnglishLearn/Battery makers mull global expansion.md",
     "EDK_LEARN/DSC中的inc.md",
     "Pasted image 20240108182821.png",
     "EDK_LEARN/Lesson-0-master 2.zip",

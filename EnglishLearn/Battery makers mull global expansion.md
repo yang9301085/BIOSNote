@@ -10,3 +10,4 @@
 <P>BloombergNEF expects battery prices to decline in the next few years, primarily due to significant growth in capacity at various points in the value chain, coupled with weaker-than-expected demand.</P>
 <P>Despite the numerous trade barriers and comparatively high costs abroad in recent years, Wu said expanding business overseas is still important for Chinese battery firms.</P>
 <P>Domestic market scale is necessary to ensure cost-effectiveness advantages brought by economies of scale, while domestic companies should also step up investments in new technologies to ensure they remain technologically advanced amid future transformations, he said.</P>
+
