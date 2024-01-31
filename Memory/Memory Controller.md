@@ -7,16 +7,17 @@ The Memory Controller Chip
 
 **Catalog**  
 
-|   |   |
-|---|---|
-|[Ⅰ Classification of the memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#1 "Classification of the memory controller")|[1. Traditional memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#1.1 "Traditional memory controller")|
-|[2. Integrated memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#1.2 "Integrated memory controller")|
-|[Ⅱ Working principle of the memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2 "Working principle of the memory controller")|[1. Memory frequency](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.1 "Memory frequency")|
-|[2. Memory Capacity](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.2 "Memory Capacity")|
-|[3. Operating Voltage](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.3 "Operating Voltage")|
-|[4. Timing parameters](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.4 "Timing parameters")|
-|[Ⅲ Advantage and disadvantage](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#3 "Advantage and disadvantage")|   |
-|[Ⅳ To sum up](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#4 "To sum up")|   |
+|  |  |
+| ---- | ---- |
+| [Ⅰ Classification of the memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#1 "Classification of the memory controller") | [1. Traditional memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#1.1 "Traditional memory controller") |
+| [2. Integrated memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#1.2 "Integrated memory controller") |  |
+| [Ⅱ Working principle of the memory controller](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2 "Working principle of the memory controller") | [1. Memory frequency](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.1 "Memory frequency") |
+| [2. Memory Capacity](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.2 "Memory Capacity") |  |
+| [3. Operating Voltage](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.3 "Operating Voltage") |  |
+| [4. Timing parameters](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#2.4 "Timing parameters") |  |
+| [Ⅲ Advantage and disadvantage](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#3 "Advantage and disadvantage") |  |
+| [Ⅳ To sum up](https://www.utmel.com/blog/categories/memory%20chip/what-is-a-memory-controller#4 "To sum up") |  |
+|  |  |
 
 ## Ⅰ Classification of the memory controller
 
@@ -103,3 +104,5 @@ The biggest disadvantage of the integrated memory controller inside the CPU is t
 Many applications have more complex read patterns (almost random, especially when cache hits are unpredictable) and do not use bandwidth efficiently. A typical application of this type is business processing software. Even with CPU features such as out-of-order execution, it will be limited by memory latency. In this way, the CPU must wait for the data required for the operation to be loaded by the dividend before it can execute the instructions. The memory latency of the current low-end system is about 120-150ns, and the CPU speed has reached more than 3GHz, a single memory request may waste 200-300 CPU cycles. Even with a cache hit rate of 99%, the CPU may spend 50% of the time waiting for the end of the memory request-for example, due to memory latency.
 
 The memory controller of a traditional computer system is located inside the northbridge chip of the motherboard chipset. The CPU needs to exchange data with the memory through five steps of "CPU-North Bridge-Memory-North Bridge-CPU". In this mode, data is transmitted through multiple levels, and the data delay is obviously relatively large, which affects the overall performance of the computer system. AMD’s K8 series CPUs (including various processors with Socket 754/939/940 interfaces) integrate a memory controller. The data exchange process of CPU and the memory is simplified to the three steps of "CPU-memory-CPU", and two steps are omitted. Compared with the traditional memory controller solution, the data delay is obviously lower, which helps to improve the overall performance of the computer system.
+
+#SPDserialpresencedetect
