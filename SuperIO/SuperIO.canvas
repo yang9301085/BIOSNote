@@ -1,9 +1,25 @@
 {
 	"nodes":[
 		{"id":"19f0e6da715254c0","type":"file","file":"SuperIO/Intel 8042.md","x":-249,"y":240,"width":400,"height":400},
-		{"id":"fc631a16cec9681a","type":"text","text":"SuperIO","x":-116,"y":-33,"width":134,"height":60}
+		{"id":"fc631a16cec9681a","type":"text","text":"SuperIO","x":-116,"y":-33,"width":134,"height":60},
+		{"id":"ee46aed4f8fe2796","type":"file","file":"SuperIO/Serial Port.md","x":240,"y":160,"width":400,"height":400},
+		{"id":"3d282023c0406bf1","type":"file","file":"SuperIO/SuperIO GPIO.md","x":-249,"y":-660,"width":400,"height":363},
+		{"id":"8f45ee2d35a98c1e","x":-107,"y":110,"width":116,"height":50,"type":"text","text":"KBC"},
+		{"id":"86af9472b1480567","x":151,"y":-33,"width":149,"height":60,"type":"text","text":"Serial Port"},
+		{"id":"e006dcfef6a71b2a","type":"file","file":"SuperIO/Super IO HWM.md","x":-800,"y":110,"width":400,"height":400},
+		{"id":"df944a7d7f04c966","x":-111,"y":-200,"width":125,"height":60,"type":"text","text":"GPIO"},
+		{"id":"6829fe0a2c951f41","x":-360,"y":-28,"width":111,"height":50,"type":"text","text":"HWM"},
+		{"id":"5a5bd2a8a93130c9","x":300,"y":-297,"width":250,"height":60,"type":"text","text":"Environment Controller"}
 	],
 	"edges":[
-		{"id":"d461dea671093818","fromNode":"19f0e6da715254c0","fromSide":"top","toNode":"fc631a16cec9681a","toSide":"bottom"}
+		{"id":"a8890043411788b0","fromNode":"8f45ee2d35a98c1e","fromSide":"top","toNode":"fc631a16cec9681a","toSide":"bottom"},
+		{"id":"51c0d459950b7b09","fromNode":"19f0e6da715254c0","fromSide":"top","toNode":"8f45ee2d35a98c1e","toSide":"bottom"},
+		{"id":"8590fbb6dcd31e8e","fromNode":"86af9472b1480567","fromSide":"left","toNode":"fc631a16cec9681a","toSide":"right"},
+		{"id":"29886ce53ab28500","fromNode":"ee46aed4f8fe2796","fromSide":"top","toNode":"86af9472b1480567","toSide":"right"},
+		{"id":"1b2296dcdc9cb45c","fromNode":"6829fe0a2c951f41","fromSide":"right","toNode":"fc631a16cec9681a","toSide":"left"},
+		{"id":"acf1c36800d1589b","fromNode":"df944a7d7f04c966","fromSide":"bottom","toNode":"fc631a16cec9681a","toSide":"top"},
+		{"id":"cdf094692f38175f","fromNode":"3d282023c0406bf1","fromSide":"bottom","toNode":"df944a7d7f04c966","toSide":"top"},
+		{"id":"0672a5794c9f00c8","fromNode":"e006dcfef6a71b2a","fromSide":"top","toNode":"6829fe0a2c951f41","toSide":"left"},
+		{"id":"8177db0104fc10bd","fromNode":"5a5bd2a8a93130c9","fromSide":"left","toNode":"fc631a16cec9681a","toSide":"top"}
 	]
 }

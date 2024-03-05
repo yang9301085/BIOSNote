@@ -21,7 +21,6 @@ Another bridesmaid emphasized that such roles should only be accepted if they as
 
 
 
-
 婚礼上的伴娘可能是租的？“职业伴娘”火了
 
 “职业伴娘”，火速蹿红
@@ -45,3 +44,38 @@ Another bridesmaid emphasized that such roles should only be accepted if they as
 另一位女生建议大家不要去帮不熟的同事做伴娘。她那次之所以同意去当伴娘，是因为新娘年纪有点大，急需帮忙。然而，她的努力没有得到任何回报，没有收到伴娘的伴手礼也没有红包。婚礼期间，中午吃的是外卖，晚上吃的则是剩饭剩菜。
 
 还有一位伴娘强调说，只有闺蜜才会去帮这种忙当伴娘，因为只有这样才能让这段经历变得有价值。她说，只要新娘在婚礼当天是幸福快乐的，其他的不便都可以不计较，但关系一般的朋友就很难不计较这些琐事。
+
+1. bridesmaids n.女傧相，伴娘( bridesmaid的名词复数 );
+2. dilemma n.窘境，困境;
+3. attendants n.服务人员( attendant的名词复数 ), 侍者, 随从, 伴随物;
+4. eliminating v.排除( eliminate的现在分词 ), 消除, 除掉, <口>干掉;
+5. awkwardness n.笨拙, 粗劣, 难为情, 尴尬;
+6. indebtedness n.受恩惠，亏欠，债务;
+7. Attentiveness [医]注意;
+8. coordination n.协调（能力）, 配合;
+9. wedding n.（有宗教仪式的）婚礼, 好事将近（指两人将要结婚）;
+10. corresponding adj.相应的，相关的;v.符合, 相当于, 通信（ correspond的现在分词）;
+11. groomsmen n.男傧相，伴郎( groomsman的名词复数 );
+12. flourish vi.挥舞, 茂盛，繁荣, 活跃，蓬勃;vt.挥动，挥舞;
+13. relocates 
+14. ceremony n.典礼，仪式, 礼节，客套;
+15. avoid v.避免，防止, 躲避, 逃避;
+16. invite v.邀请, 请求, 招致;
+17. distant adj.遥远的，久远的, 远亲的, 冷淡的, 恍惚的;
+18. potential adj.潜在的;n.潜力, 可能性;
+19. assistance n.帮助, 援助, 支持, 资助, 补助, 辅助;
+20. irritated adj.恼怒的，生气的;v.使发怒( irritate的过去式和过去分词 ), 使急躁, 使感到不适, 使疼痛;
+21. dissatisfaction n.不满，不平, 令人不满的事物;
+22. fulfill vt.履行（诺言等）, 执行（命令等）, 达到（目的）, 使结束;
+23. venue n.（事件或活动的）发生地, 举办地点, 场地;
+24. decorating v.装饰( decorate的现在分词 ), 点缀, 粉刷, 授予（某人）勋章;
+25. frustration n.挫折, 失败, 挫败, 失意;
+26. granted conj.假定，就算;v.（退一步）承认( grant的过去式和过去分词 ), （尤指正式地或法律上）同意, 准许, 让渡;
+27. particular adj.特定的, 特殊的, 格外的, 挑剔的;n.细节, 详细资料;
+28. desperately adv.绝望地, 不顾一切地, <口>极度地, 猛烈地;
+29. unrewarded adj.未获报答（或报偿、报酬、奖赏）的;
+30. eftovers n.（用复数）剩余物, 残羹剩菜, （事物、习惯等的）遗留, 遗物, 剩余的，未用完的( leftover的名词复数 );
+31. emphasized v.强调( emphasize的过去式和过去分词 ), 加强语气, 重读, 使突出;
+32. joyful adj.快乐的，高兴的, 令人开心的，使人喜悦的, 快意, 融融;
+33. dwelling n.住宅，居所;v.居住（dwell的现在分词）;
+34. trivial adj.琐碎的，无价值的, 平常的，平凡的, 不重要的, [生]种的;
