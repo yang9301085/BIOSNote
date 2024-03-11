@@ -11,9 +11,12 @@
             "id": "22fc1e154a89bc34",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Assembly/552884 汇编语言  基于x86处理器.pdf"
+                "file": "Common/UEFI Boot Follow/PEI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assembly/552884 汇编语言  基于x86处理器.pdf",
+                "file": "Common/UEFI Boot Follow/PEI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assembly/552884 汇编语言  基于x86处理器.pdf",
+                "file": "Common/UEFI Boot Follow/PEI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assembly/552884 汇编语言  基于x86处理器.pdf"
+                "file": "Common/UEFI Boot Follow/PEI.md"
               }
             }
           }
@@ -137,57 +140,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
       "translate:Open translation view": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
-      "zk-prefixer:创建时间戳笔记": false,
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
   "active": "22fc1e154a89bc34",
   "lastOpenFiles": [
     "Common/UEFI Boot Follow/SEC.md",
+    "Common/UEFI Boot Follow/PEI.md",
+    "Common/UEFI Image.md",
+    "Memory/MRC SPD Processing.md",
+    "Memory/SPD (serial presence detect).md",
+    "Memory/Memory Overview.md",
+    "Memory/Memory Controller.md",
+    "Common/BIOS 缩短第一次开机时间.md",
+    "Pasted image 20240306230619.png",
+    "Pasted image 20240306223051.png",
+    "Common/Firmware.md",
+    "Pasted image 20240306212552.png",
     "Common/AC load line.md",
+    "Common/AUDIO.md",
+    "SuperIO/Serial Port.md",
+    "SuperIO/Intel 8042.md",
+    "SuperIO/Super IO HWM.md",
+    "SuperIO/SuperIO.canvas",
+    "SuperIO/SuperIO GPIO.md",
+    "Assembly/552884 汇编语言  基于x86处理器.pdf",
     "Common/UEFI Boot Follow",
     "Common/未命名.md",
     "Assembly/[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf",
-    "Assembly/552884 汇编语言  基于x86处理器.pdf",
     "Common/Wake on LAN.md",
-    "Common/UEFI Image.md",
     "Common/Secure Boot.md",
     "Common/Power On After G3.md",
     "Common/Memory 关channel.md",
     "Common/logo.md",
     "Common/Dump Variable in shell.md",
     "Common/BIOS setup UI add item.md",
-    "Common/AUDIO.md",
-    "Common/BIOS 缩短第一次开机时间.md",
     "Common/BIOS 系统语言.md",
     "Debug Log/Intel/Memory timing not match SPEC issue.md",
     "EDK_LEARN/DSC中的inc.md",
-    "BIOS Setup Menu/Advanced Page.md",
     "BIOS_SPEC/NVMe/NVM-Express-Boot-Specification-2022.11.15-Ratified.pdf",
     "BIOS_SPEC/NVMe/NVM-Express-Base-Specification-2.0c-2022.10.04-Ratified.pdf",
-    "SuperIO/Intel 8042.md",
-    "SuperIO/Serial Port.md",
-    "SuperIO/Super IO HWM.md",
-    "SuperIO/SuperIO.canvas",
-    "SuperIO/SuperIO GPIO.md",
     "DDR4 SPD SPEC.pdf",
     "未命名.canvas",
     "4_01_02_AnnexL-5R29.pdf",
     "_H__spd_Kingston%20KF3600C18D4-16GX.html.png",
     "MSCV Compiler/MSVC_MindMap.canvas",
-    "MSCV Compiler/MSVC  (Microsoft Visual C++ ).md",
-    "MSCV Compiler/cl.exe & link.exe.md.md",
-    "Memory/SPD (serial presence detect).md",
-    "Memory/MRC SPD Processing.md",
-    "Memory/Memory Overview.md",
     "Pasted image 20240305091719.png",
     "Pasted image 20240305091659.png",
     "Pasted image 20240301181541.png",
@@ -197,9 +203,6 @@
     "Pasted image 20240126151452.png",
     "Pasted image 20240124181202.png",
     "Pasted image 20240108182821.png",
-    "Memory/image/Pasted image 20240220093702.png",
-    "Memory/image/Pasted image 20240220093650.png",
-    "Memory/image/Pasted image 20240220093642.png",
     "Assembly/Assembly.canvas"
   ]
 }
