@@ -167,6 +167,11 @@
   },
   "active": "39087f75237172f5",
   "lastOpenFiles": [
+    "Pasted image 20240306230619.png",
+    "Pasted image 20240306223051.png",
+    "Pasted image 20240306212552.png",
+    "Common/UEFI Boot Follow/PEI.md",
+    "Common/Firmware.md",
     "Common/PCIE/PCIE体系结构导读.pdf",
     "Common/Wake on LAN.md",
     "SuperIO/Serial Port.md",
@@ -197,9 +202,7 @@
     "Memory/Memory Controller.md",
     "Memory/MRC SPD Processing.md",
     "Assembly/552884 汇编语言  基于x86处理器.pdf",
-    "Common/UEFI Boot Follow/SEC.md",
     "Common/UEFI Boot Follow",
-    "Common/未命名.md",
     "Assembly/[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf",
     "BIOS_SPEC/NVMe/NVM-Express-Boot-Specification-2022.11.15-Ratified.pdf",
     "BIOS_SPEC/NVMe/NVM-Express-Base-Specification-2.0c-2022.10.04-Ratified.pdf",
@@ -213,8 +216,6 @@
     "Pasted image 20240126151452.png",
     "Pasted image 20240124181202.png",
     "Pasted image 20240108182821.png",
-    "Memory/image/Pasted image 20240220093702.png",
-    "Memory/image/Pasted image 20240220093650.png",
     "Assembly/Assembly.canvas"
   ]
 }
