@@ -289,20 +289,20 @@ UINT32 ReadPci32 (
 ![[Wake on LAN-20240104153939337.webp|685]]
 
 ## Register Fields for PM_CAP/CON_STATUS_REG
-|**Field Name**|**Bit Offset**|
-|---|---|
-|POWER_STATE|0|
-|RSVDP_2|2|
-|NO_SOFT_RST|3|
-|RSVDP_4|4|
-|PME_ENABLE|8|
-|DATA_SELECT|9|
-|DATA_SCALE|13|
-|PME_STATUS|15|
-|RSVDP_16|16|
-|B2_B3_SUPPORT|22|
-|BUS_PWR_CLK_CON_EN|23|
-|DATA_REG_ADD_INFO|24|
+| **Field Name**     | **Bit Offset** |
+| ------------------ | -------------- |
+| POWER_STATE        | 0              |
+| RSVDP_2            | 2              |
+| NO_SOFT_RST        | 3              |
+| RSVDP_4            | 4              |
+| PME_ENABLE         | 8              |
+| DATA_SELECT        | 9              |
+| DATA_SCALE         | 13             |
+| PME_STATUS         | 15             |
+| RSVDP_16           | 16             |
+| B2_B3_SUPPORT      | 22             |
+| BUS_PWR_CLK_CON_EN | 23             |
+| DATA_REG_ADD_INFO  | 24             |
 ![[Wake on LAN-20240104175053475.webp|647]]
 
 ![[Wake on LAN-20240104175201952.webp|638]]

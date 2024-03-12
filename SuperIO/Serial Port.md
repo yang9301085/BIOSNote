@@ -13,3 +13,5 @@ LSR: 线路状态寄存器，表明当前通信的状态
 Bit0(Data Ready)为 1 时表明接收数据
 Bit5 表明传输数据
 
+在配置串口时，需要把SIO的GPIO功能开到COM功能
+![[Pasted image 20240311141107.png]]

@@ -18,4 +18,4 @@ PCIE 1x4 表示PCIE port 4个port为一组，这一组只连一个东西
 最后把PCIE port 1 lane reversal disable + USB3 Port 2/3 PCIE port 1/2 mode（USB复用功能关闭）
 +PCIE 1x4 功能正常，测试软件也显示PCIE x4
 
-summary：
+
