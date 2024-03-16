@@ -10,6 +10,21 @@
           {
             "id": "22fc1e154a89bc34",
             "type": "leaf",
+<<<<<<< HEAD
+=======
+            "pinned": true,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Common/PCIE/PCIE体系结构导读.pdf"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "19e8ed3257307a6a",
+            "type": "leaf",
+>>>>>>> 5bb61b586a9165fa4c680a8fc3453223323b48e7
             "state": {
               "type": "markdown",
               "state": {
@@ -49,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TurboBoost",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,6 +167,7 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
+<<<<<<< HEAD
   "active": "a13363d2c722dcdb",
   "lastOpenFiles": [
     "Pasted image 20240311141107.png",
@@ -203,6 +219,58 @@
     "Pasted image 20240126151452.png",
     "Pasted image 20240124181202.png",
     "Pasted image 20240108182821.png",
+=======
+  "active": "19e8ed3257307a6a",
+  "lastOpenFiles": [
+    "Common/PCIE/PCIE体系结构导读.pdf",
+    "Common/Power On After G3.md",
+    "Pasted image 20240314171938.png",
+    "Pasted image 20240314171908.png",
+    "Pasted image 20240314171824.png",
+    "Pasted image 20240314165424.png",
+    "Pasted image 20240314163834.png",
+    "Pasted image 20240314163729.png",
+    "Common/边沿触发&电平触发.md",
+    "Pasted image 20240314160955.png",
+    "Pasted image 20240314160513.png",
+    "Pasted image 20240314155252.png",
+    "Common/Secure Boot.md",
+    "Common/Wake on LAN.md",
+    "Common/TVB.md",
+    "Common/AUDIO.md",
+    "Common/SPEC/high-definition-audio-specification.pdf",
+    "Common/SPEC/ALC662-GR.pdf",
+    "Common/UEFI Boot Follow/PEI.md",
+    "Common/UEFI Boot Follow/SEC.md",
+    "Common/AC load line.md",
+    "Common/Firmware.md",
+    "Common/BIOS 缩短第一次开机时间.md",
+    "Common/BIOS 系统语言.md",
+    "Common/logo.md",
+    "Common/Memory 关channel.md",
+    "Common/PCIE/X99 H81 PCIE X1 改X4.md",
+    "Common/PCIE/PCI.md",
+    "EnglishLearn/Livestreaming firms called on to boost governance.md",
+    "EnglishLearn/Livestreaming firms called on to boost governance.pdf",
+    "EnglishLearn/Irresistible lightness of being.md",
+    "EnglishLearn/Cruise ship a key maritime achievement.md",
+    "Common/PCIE/PME.md",
+    "Common/MS.pdf",
+    "Common/MS.md",
+    "Pasted image 20240314135548.png",
+    "BIOS_SPEC/edk2-UefiDriverWritersGuide-draft.pdf",
+    "Common/Option Rom(OpRom).md",
+    "Common/UEFI Image.md",
+    "SuperIO/Serial Port.md",
+    "DDR4 SPD SPEC.pdf",
+    "未命名.canvas",
+    "Common/WDT.md",
+    "MSCV Compiler/MSVC_MindMap.canvas",
+    "SuperIO/SuperIO.canvas",
+    "Assembly/552884 汇编语言  基于x86处理器.pdf",
+    "Common/UEFI Boot Follow",
+    "Assembly/[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf",
+>>>>>>> 5bb61b586a9165fa4c680a8fc3453223323b48e7
     "Assembly/Assembly.canvas"
   ]
 }

@@ -82,7 +82,7 @@ On Saturday night, Yu and Dong appeared in a livestream in order to prevent the 
 
 “孙东旭将继续在新东方担任其他职务。”俞敏洪表示，并强调他们从来没有要赶走董宇辉。
 
-There were <B style="color:red">rumors</B> in the market that Dong was being <B style="color:red">courted</B> by other livestreaming e-commerce companies and some tech <B style="color:red">giants</B>.
+There were <B style="color:red">rumors</B> in the market that Dong was being<B style="color:red">courted</B> by other livestreaming e-commerce companies and some tech <B style="color:red">giants</B>.
 
 市场上有传言称，其他直播电商公司和一些科技巨头一直在向董宇辉抛出橄榄枝。
 

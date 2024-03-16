@@ -1,10 +1,29 @@
-## BIOS 配置 Wake on LAN 
+# 硬件层：
+
+网卡可以监控网口中的唤醒帧、魔术包或Re-LinkOk，并在发生这种包或事件时通过LANWAKEB引脚通知PCH的WAKE引脚，WAKE# 收到信号后发出 [[PME]] 触发SMI从而唤醒系统
+![[Pasted image 20240312162345.png]]
+
+网卡的LANWAKE#
+![[Pasted image 20240312161535.png]]
+
+LANWAKE#连到PCH的WAKE#上
+![[Pasted image 20240312161939.png]]
+![[Pasted image 20240312162038.png]]
+![[Pasted image 20240312164928.png]]
+![[Pasted image 20240314113647.png]]
+
+
+# BIOS 配置 Wake on LAN 
+
+![[Pasted image 20240312150519.png]]
 
 * 根据PCI SPEC中找到对应位置  
 
 ![[Wake on LAN-20240104151429512.webp|1007]]
 
-首先遍历找到LAN 所在PCI，打开PME_ENABLE 
+首先遍历PCI设备找到LAN ，访问LAN的Power Managment，打开PMEE 
+![[Pasted image 20240314104231.png]]
+
 ```C
 void Enable_LAN_PME(void)
 {
@@ -47,7 +66,7 @@ void Enable_LAN_PME(void)
 	                //此位置为PCI Power management Interface
                     if(u8temp == 1)
                     {
-	                    //找到PME Enable位置,offset 08
+	                    //找到PME Enable位置
                         u8temp = READ_PCI8(
 	                        tempPCIBUS,
 	                        tempPCIDEV,
@@ -77,41 +96,52 @@ void Enable_LAN_PME(void)
 // Enable PCI-E PME Wake-Up function
 VOID PCI_PCIE_PME_Wakeup()
 {
-    UINT16  adata1;
-    UINT16  adata2;
+    UINT32 adata1;
+    UINT32 adata2;
+    UINT32 adata3;
+
+    Enable_LAN_PME();
     
-  Enable_LAN_PME();
-  
-  adata1 = IoRead16(PM_BASE_ADDRESS+0x00);   //K201119+
-  IoWrite16(PM_BASE_ADDRESS+0x00, adata1);   //K201119+
-  adata1 = IoRead16(PM_BASE_ADDRESS+0x20);   //K201119+
-  IoWrite16(PM_BASE_ADDRESS+0x20, adata1);   //K201119+  
-  adata1 = IoRead16(PM_BASE_ADDRESS+0x02);  // adata1 = PM1_STS
-  adata2 = IoRead16(PM_BASE_ADDRESS+0x28);  // adata2 = GPE0_EN
-  
-  // Set PCI/PCI-E/Lan PME event to enable      
-    if(WakeUp_PCIELAN_Event == 1)
+    adata1 = IoRead32(PM_BASE_ADDRESS + 0x00); // PM1_EN_STS
+    adata1 |= BIT14 + BIT15;
+    adata2 = IoRead32(PM_BASE_ADDRESS + 0x6C); // GPE0_STS
+    adata3 = IoRead32(PM_BASE_ADDRESS + 0x7C); // GPE0_EN
+
+    // Set PCI/PCI-E/Lan PME event to enable
+    if (WakeUp_PCIELAN_Event == 1)
     {
-        adata1 = adata1 &~ BIT14;           // Enable PCIE event
+        adata1 &= ~BIT30;                         // Enable PCIE event
+        /*
+	        PCI_EXP_EN
+	        PEM_B0_EN
+	        LAN_WAKE_EN
+        */
+        adata3 = adata3 | (BIT9 + BIT13 + BIT16);
     }
     else
     {
-        adata1 = adata1 | BIT14;            // Disable PCIE event
+        adata1 |= BIT30;                   // Disable PCIE event
+        adata3 &= ~(BIT9 + BIT13 + BIT16); 
+    }
+    // Set PCI/PCI-E/Lan PME event to enable
+    if (WakeUp_PCIELAN_Event == 1)
+    {
+	    /* 
+		    clear PCI event
+		    PCI_EXP_STS
+		    PME_B0_STS
+	    */
+        adata2 = adata2 | (BIT9 + BIT13); 
+    }
+    else
+    {
+        adata2 &= ~(BIT9 + BIT13); // Disable PCI event
     }
 
-    // Set PCI/PCI-E/Lan PME event to enable        
-    if(WakeUp_PCIELAN_Event == 1)
-    {
-        adata2 = adata2 | (BIT9 + BIT11);       // Enable PCI event
-    }
-    else
-    {
-        adata2 = adata2 &~ (BIT9 + BIT11);      // Disable PCI event
-    }
-    
-    IoWrite32(PM_BASE_ADDRESS+0x00, BIT14 + BIT11 + BIT9);
-    IoWrite16(PM_BASE_ADDRESS+0x02, adata1);
-    IoWrite16(PM_BASE_ADDRESS+0x28, adata2);
+    IoWrite32(PM_BASE_ADDRESS + 0x00, adata1);
+    IoWrite32(PM_BASE_ADDRESS + 0x34, 0xFFFFFFFF);
+    IoWrite16(PM_BASE_ADDRESS + 0x6C, adata2);
+    IoWrite16(PM_BASE_ADDRESS + 0x7C, adata3);
 }
 ```
 
