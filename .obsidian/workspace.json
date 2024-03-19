@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/Wake on LAN.md",
+                "file": "Common/Firmware.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/Wake on LAN.md",
+                "file": "Common/Firmware.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/Wake on LAN.md",
+                "file": "Common/Firmware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/Wake on LAN.md"
+                "file": "Common/Firmware.md"
               }
             }
           }
@@ -167,8 +167,13 @@
   },
   "active": "19e8ed3257307a6a",
   "lastOpenFiles": [
-    "Common/PCIE/PCIE体系结构导读.pdf",
+    "Common/Memory 关channel.md",
+    "Common/Wake on LAN.md",
     "Common/Power On After G3.md",
+    "Common/Secure Boot.md",
+    "Common/TVB.md",
+    "Common/UEFI Image.md",
+    "Common/PCIE/PCIE体系结构导读.pdf",
     "Pasted image 20240314171938.png",
     "Pasted image 20240314171908.png",
     "Pasted image 20240314171824.png",
@@ -179,9 +184,6 @@
     "Pasted image 20240314160955.png",
     "Pasted image 20240314160513.png",
     "Pasted image 20240314155252.png",
-    "Common/Secure Boot.md",
-    "Common/Wake on LAN.md",
-    "Common/TVB.md",
     "Common/AUDIO.md",
     "Common/SPEC/high-definition-audio-specification.pdf",
     "Common/SPEC/ALC662-GR.pdf",
@@ -192,7 +194,6 @@
     "Common/BIOS 缩短第一次开机时间.md",
     "Common/BIOS 系统语言.md",
     "Common/logo.md",
-    "Common/Memory 关channel.md",
     "Common/PCIE/X99 H81 PCIE X1 改X4.md",
     "Common/PCIE/PCI.md",
     "EnglishLearn/Livestreaming firms called on to boost governance.md",
@@ -205,7 +206,6 @@
     "Pasted image 20240314135548.png",
     "BIOS_SPEC/edk2-UefiDriverWritersGuide-draft.pdf",
     "Common/Option Rom(OpRom).md",
-    "Common/UEFI Image.md",
     "SuperIO/Serial Port.md",
     "DDR4 SPD SPEC.pdf",
     "未命名.canvas",
