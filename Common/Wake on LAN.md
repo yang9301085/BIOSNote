@@ -345,3 +345,7 @@ UINT32 ReadPci32 (
 ![[Wake on LAN-20240104175405364.webp|813]]
 
 ![[Wake on LAN-20240104175421255.webp|761]]
+
+## Cold boot wakeup
+
+该功能指的是板子从D3下通过网络唤醒切换到S0状态
