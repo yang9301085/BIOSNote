@@ -1,0 +1,11 @@
+![[小華的部落格_ [我所知道的BIOS]-_[前言] 1.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[系統架構] 2.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[PowerOn Sequence & BIOS Entry] 3.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[Jumpless] 4.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[Chipset Config] 5.pdf]]
+![[小華的部落格_ [我知道的BIOS]-_[系統資源] 6.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[DRAM Sizing](2) 7.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[Shadowing] 8.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[PCI SCAN] 9.pdf]]
+![[小華的部落格_ [我所知道的BIOS]-_[VGA init] 10.pdf]]
+
