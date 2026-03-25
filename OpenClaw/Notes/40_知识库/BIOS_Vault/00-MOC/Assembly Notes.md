@@ -1,0 +1,8 @@
+![[[Intel微处理器（原书第8版）].(布雷).金惠华等.扫描版[www.xzpc6.com].pdf]]
+![[552884 汇编语言  基于x86处理器.pdf]]
+[[Assembler Language syntaxes]]
+[[Assembly Flow]]
+[[存储器]]
+[[寄存器]]
+![[计算机组成原理 (艾伦·克莱门茨 (Alan Clements)) (Z-Library).pdf]]
+![[计算机组成原理第3版 唐朔飞.pdf]]

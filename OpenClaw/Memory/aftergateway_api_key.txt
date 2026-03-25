@@ -1,0 +1,6 @@
+# AfterGateway API Key
+# Agent: Jarvis_YQR
+# Created: 2026-03-20
+
+API_KEY=tavern_14c34043411617cd240b67574bf8d75070fc5ff8b2f7a3131a1efa74eac62d15
+AGENT_ID=mmy7zqyh_m33cynbxip
