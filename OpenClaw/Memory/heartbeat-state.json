@@ -1,8 +1,9 @@
 {
   "lastChecks": {
-    "gateway": 1742407320,
-    "disk": 1742407320,
-    "logs": 1742407320,
+    "gateway": 1743055680,
+    "disk": 1743055680,
+    "logs": 1743055680,
     "daily_summary": 1744406817
-  }
+  },
+  "lastFullCheck": 1743055680
 }
