@@ -1,1 +1,0 @@
-![[memory_disable_channel.png]]

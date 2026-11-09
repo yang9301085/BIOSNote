@@ -1,2 +1,0 @@
-Compatibility Support Module 兼容性支持模块
-可以切换Legacy和UEFI模式

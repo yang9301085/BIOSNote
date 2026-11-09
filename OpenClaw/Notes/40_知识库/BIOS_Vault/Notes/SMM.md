@@ -1,1 +1,0 @@
-这一切都要从OEMSmi.c中的`EFI_SMM_SW_REGISTER_CONTEXT SwContext = {OEM_SWSMI};`说起
