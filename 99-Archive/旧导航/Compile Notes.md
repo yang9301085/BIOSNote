@@ -1,0 +1,5 @@
+[[cl.exe & link.exe]]
+[[MSVC  (Microsoft Visual C++ )]]
+![[MSVC_MindMap.canvas]]
+[[MakeFile]]
+[[make_]]

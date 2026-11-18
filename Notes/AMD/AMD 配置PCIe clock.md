@@ -1,5 +1,0 @@
-
-AMD没有像Intel那样的fit工具，全部配置都在代码里面配
-[[BIOS_SPEC/AMD/55730_Common_Platform_Module_Implementation_Guide_Rev_1.20.pdf|55730_Common_Platform_Module_Implementation_Guide_Rev_1.20]]
-可以参考这个文件
-

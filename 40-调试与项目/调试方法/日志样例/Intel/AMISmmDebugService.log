@@ -1,0 +1,487 @@
+...Serial reg: IER:00 IIR:01 LCR:00 MCR:00 LSR:60
+Serial initialization is successful
+FSP-T: CAR Init
+PrintPeiCoreEntryPointParam in PlatformInit
+FspHobList - 0x0
+StartOfRange - 0xFEF00000
+EndOfRange - 0xFEFFFF00
+FSP Wrapper BootFirmwareVolumeBase - 0xFFEE0000
+FSP Wrapper BootFirmwareVolumeSize - 0x120000
+FSP Wrapper TemporaryRamBase       - 0xFEF00000
+FSP Wrapper TemporaryRamSize       - 0xFFF00
+FSP Wrapper PeiTemporaryRamBase    - 0xFEF00000
+FSP Wrapper PeiTemporaryRamSize    - 0x7FF80
+FSP Wrapper StackBase              - 0xFEF7FF80
+FSP Wrapper StackSize              - 0x7FF80
+FSP CPUID                          - 0x00090675
+FSP PatchID                        - 0x00000032
+SecStartupPhase2() Stack Base: 0xFEF7FF80, Stack Size: 0x7FF80
+PeiCore.Entry(FFF1A37C)
+
+Register PPI Notify: EfiPeiSecurity2
+Install PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Install PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
+The 0th FV start address is 0x000FFEE0000, size is 0x00120000, handle is 0xFFEE0000
+Register PPI Notify: EfiPeiFirmwareVolumeInfo
+Register PPI Notify: EfiPeiFirmwareVolumeInfo2
+Install PPI: EfiPeiLoadFile
+Register PPI Notify: PeiSecPerformance
+Install PPI: EfiTemporaryRamDone
+Install PPI: EfiSecPlatformInformation
+Install PPI: TopOfTemporaryRam
+Install PPI: FC4DD4F2-179E-41F8-9D6D-FAD6F9D7B8B9
+Install PPI: PeiSecPerformance
+Notify: PPI: PeiSecPerformance, Peim notify entry point: FFFF8EA0
+SecGetPerformance
+FPDT: SEC Performance Hob ResetEnd = 104401250
+DiscoverPeimsAndOrderWithApriori(): Found 0x2D PEI FFS files in the 0th FV
+
+Loading PEIM E9DD7F62-25EC-4F9D-A4AB-AAD20BF59A10
+StatusCodePei.Entry(FFF9B8E0)
+Install PPI: AmiDebugService
+ FspData: Signature             - 0x44505346
+ FspData: Version               - 0x0
+ FspData: PerfIdx               - 0x2
+ FspData: PerfSig               - 0x46524550
+ FspData: FspMode               - DISPATCH
+ FspData: FspInfoHeader         - 0xFFD80094
+ FspData: TempRamInitUpdPtr     - 0xFFFFC938
+=====================================
+FSP Version : 0C.00.BB.30
+RC Version  : 0C.00.BB.30
+Build Date  :             
+=====================================
+SecPlatformInformation
+SecPlatformInformation
+Calling RepublishSecPpi instance 0.
+SecGetPerformance
+FPDT: SEC Performance Hob ResetEnd = 102648508
+SecPlatformDisableTemporaryMemory enter
+
+McBank End Index 0x14 
+Memory Length (Below 4GB) = 4F200000.
+Memory Length (Above 4GB) = 5AE000000.
+MTRR programming:
+MSR_IA32_MTRR_FIX64K_00000 Msr 250 = 0606060606060606
+
+MSR_IA32_MTRR_FIX16K_80000 Msr 258 = 0606060606060606
+MSR_IA32_MTRR_FIX16K_A0000 Msr 259 = 0000000000000000
+MSR_IA32_MTRR_FIX4K_C0000  Msr 268 = 0505050505050505
+MSR_IA32_MTRR_FIX4K_C8000  Msr 269 = 0505050505050505
+MSR_IA32_MTRR_FIX4K_D0000  Msr 26A = 0505050505050505
+MSR_IA32_MTRR_FIX4K_D8000  Msr 26B = 0505050505050505
+MSR_IA32_MTRR_FIX4K_E0000  Msr 26C = 0505050505050505
+MSR_IA32_MTRR_FIX4K_E8000  Msr 26D = 0505050505050505
+MSR_IA32_MTRR_FIX4K_F0000  Msr 26E = 0505050505050505
+MSR_IA32_MTRR_FIX4K_F8000  Msr 26F = 0505050505050505
+MSR_IA32_MTRR_PHYSBASE0 Msr 200 = 00000000FF000005
+MSR_IA32_MTRR_PHYSMASK0 Msr 201 = 0000007FFF000800
+MSR_IA32_MTRR_PHYSBASE1 Msr 202 = 0000000100000006
+MSR_IA32_MTRR_PHYSMASK1 Msr 203 = 0000007F00000800
+MSR_IA32_MTRR_PHYSBASE2 Msr 204 = 0000000040000006
+MSR_IA32_MTRR_PHYSMASK2 Msr 205 = 0000007FF0000800
+MSR_IA32_MTRR_PHYSBASE3 Msr 206 = 0000000000000006
+MSR_IA32_MTRR_PHYSMASK3 Msr 207 = 0000007FC0000800
+MSR_IA32_MTRR_PHYSBASE4 Msr 208 = 0000000200000006
+
+MSR_IA32_MTRR_PHYSMASK4 Msr 209 = 0000007E00000800
+MSR_IA32_MTRR_PHYSBASE5 Msr 20A = 0000000400000006
+MSR_IA32_MTRR_PHYSMASK5 Msr 20B = 0000007C00000800
+MSR_IA32_MTRR_PHYSBASE6 Msr 20C = 0000000000000000
+MSR_IA32_MTRR_PHYSMASK6 Msr 20D = 0000000000000000
+MSR_IA32_MTRR_PHYSBASE7 Msr 20E = 0000000000000000
+MSR_IA32_MTRR_PHYSMASK7 Msr 20F = 0000000000000000
+MSR_IA32_MTRR_PHYSBASE8 Msr 210 = 0000000000000000
+MSR_IA32_MTRR_PHYSMASK8 Msr 211 = 0000000000000000
+MSR_IA32_MTRR_PHYSBASE9 Msr 212 = 0000000000000000
+MSR_IA32_MTRR_PHYSMASK9 Msr 213 = 0000000000000000
+PeiMemoryDiscoveredNotify enter
+ FspData: Signature     - 0x44505346
+ FspData: Version       - 0x0
+ FspData: PerfIdx       - 0x2
+ FspData: PerfSig       - 0x46524550
+ FspData: FspMode       - DISPATCH
+ FspData: FspInfoHeader - 0xFFD80094
+AP Loop Mode is 2
+WakeupBufferStart = 9F000, WakeupBufferSize = 0
+CpuMpPei: 5-Level Paging = 0
+
+APIC MODE is 1
+MpInitLib: Find 12 processors in system.
+
+GetMicrocodePatchInfoFromHob: Microcode patch cache HOB is not found.
+ShadowMicrocodePatchByPcd: 0x4 microcode patches will be loaded into memory, with size 0xD2C00.
+ShadowMicrocodePatchWorker: Required microcode patches have been loaded at 0x4610A000, with size 0xD2C00.
+CPU[0000]: Microcode revision = 00000032, expected = 00000032
+CPU[0002]: Microcode revision = 00000032, expected = 00000032
+CPU[0004]: Microcode revision = 00000032, expected = 00000032
+CPU[0006]: Microcode revision = 00000032, expected = 00000032
+CPU[0008]: Microcode revision = 00000032, expected = 00000032
+CPU[0010]: Microcode revision = 00000032, expected = 00000032
+
+  APICID - 0x00000000, BIST - 0x00000000
+  APICID - 0x00000001, BIST - 0x00000000
+  APICID - 0x00000002, BIST - 0x00000000
+  APICID - 0x00000003, BIST - 0x00000000
+
+  APICID - 0x00000004, BIST - 0x00000000
+  APICID - 0x00000005, BIST - 0x00000000
+  APICID - 0x00000006, BIST - 0x00000000
+  APICID - 0x00000007, BIST - 0x00000000
+  APICID - 0x00000008, BIST - 0x00000000
+  APICID - 0x00000009, BIST - 0x00000000
+  APICID - 0x0000000A, BIST - 0x00000000
+  APICID - 0x0000000B, BIST - 0x00000000
+[NEW] FeatureName: AESNI
+[NEW] FeatureName: MWAIT
+[NEW] FeatureName: ACPI
+[NEW] FeatureName: EIST
+[NEW] FeatureName: FastStrings
+[NEW] FeatureName: Lock Feature Control Register
+[NEW] FeatureName: SMX
+[NEW] FeatureName: VMX
+[NEW] FeatureName: Limit CpuId Maximum Value
+[NEW] FeatureName: Machine Check Enable
+[NEW] FeatureName: Machine Check Architect
+
+[NEW] FeatureName: MCG_CTL
+[NEW] FeatureName: Pending Break
+[NEW] FeatureName: C1E
+[NEW] FeatureName: X2Apic
+[NEW] FeatureName: PPIN
+[NEW] FeatureName: LMCE
+[NEW] FeatureName: Proc Trace
+[OVERRIDE] FeatureName: MCG_CTL
+[OVERRIDE] FeatureName: Pending Break
+[OVERRIDE] FeatureName: C1E
+[OVERRIDE] FeatureName: ACPI
+[OVERRIDE] FeatureName: FastStrings
+[OVERRIDE] FeatureName: LMCE
+[OVERRIDE] FeatureName: Limit CpuId Maximum Value
+[OVERRIDE] FeatureName: EIST
+[OVERRIDE] FeatureName: PPIN
+[NEW] FeatureName: HDC
+[NEW] FeatureName: Mlc Streamer Prefetcher
+[NEW] FeatureName: Mlc Spatial Prefetcher
+[NEW] FeatureName: APIC Tpr Update Message
+[NEW] FeatureName: Three Strike Counter
+Processor Info: Package: 1, MaxCore : 6, MaxThread: 2
+P00: Thread Count = 12
+  P00 C0000, Thread Count = 2
+  P00 C0001, Thread Count = 2
+  P00 C0002, Thread Count = 2
+  P00 C0003, Thread Count = 2
+  P00 C0004, Thread Count = 2
+  P00 C0005, Thread Count = 2
+Last CPU features list...
+[Enable   ] FeatureName: AESNI
+[Enable   ] FeatureName: MWAIT
+[Unsupport] FeatureName: ACPI
+[Unsupport] FeatureName: EIST
+[Unsupport] FeatureName: FastStrings
+[Enable   ] FeatureName: VMX
+[Unsupport] FeatureName: LMCE
+[Unsupport] FeatureName: SMX
+[Enable   ] FeatureName: Lock Feature Control Register
+
+[Unsupport] FeatureName: Limit CpuId Maximum Value
+[Enable   ] FeatureName: Machine Check Enable
+[Enable   ] FeatureName: Machine Check Architect
+[Unsupport] FeatureName: MCG_CTL
+[Unsupport] FeatureName: Pending Break
+[Unsupport] FeatureName: C1E
+[Disable  ] FeatureName: X2Apic
+[Disable  ] FeatureName: PPIN
+[Disable  ] FeatureName: Proc Trace
+[Unsupport] FeatureName: HDC
+[Enable   ] FeatureName: Mlc Streamer Prefetcher
+
+[Enable   ] FeatureName: Mlc Spatial Prefetcher
+[Enable   ] FeatureName: APIC Tpr Update Message
+[Enable   ] FeatureName: Three Strike Counter
+PcdCpuFeaturesCapability:
+ 85  34  00  01  C0  1B  00  00 
+Origin PcdCpuFeaturesSetting:
+ 85  34  00  02  C0  03  00  00 
+Final PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+RegisterTable->TableLength = 30
+Processor: 0000: Index 0000, MSR  : 0000013C, Bit Start: 00, Bit Length: 02, Value: 0000000000000001
+Processor: 0000: Index 0001, MSR  : 000001A0, Bit Start: 18, Bit Length: 01, Value: 0000000000000001
+Processor: 0000: Index 0002, MSR  : 0000003A, Bit Start: 02, Bit Length: 01, Value: 0000000000000001
+Processor: 0000: Index 0003, MSR  : 0000003A, Bit Start: 00, Bit Length: 01, Value: 0000000000000001
+Processor: 0000: Index 0004, CR   : 00000004, Bit Start: 06, Bit Length: 01, Value: 0000000000000001
+Processor: 0000: Index 0005, MSR  : 00000400, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0006, MSR  : 00000404, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+
+Processor: 0000: Index 0007, MSR  : 00000408, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0008, MSR  : 0000040C, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0009, MSR  : 00000410, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0010, MSR  : 00000414, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0011, MSR  : 00000418, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0012, MSR  : 0000041C, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0013, MSR  : 00000420, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0014, MSR  : 00000424, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0015, MSR  : 00000428, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0016, MSR  : 0000042C, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0017, MSR  : 00000430, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0018, MSR  : 00000434, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0019, MSR  : 00000438, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0020, MSR  : 0000043C, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0021, MSR  : 00000440, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0022, MSR  : 00000444, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0023, MSR  : 00000448, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+
+Processor: 0000: Index 0024, MSR  : 0000044C, Bit Start: 00, Bit Length: 64, Value: FFFFFFFFFFFFFFFF
+Processor: 0000: Index 0025, MSR  : 0000004E, Bit Start: 00, Bit Length: 64, Value: 0000000000000001
+Processor: 0000: Index 0026, MSR  : 000001A4, Bit Start: 00, Bit Length: 01, Value: 0000000000000000
+Processor: 0000: Index 0027, MSR  : 000001A4, Bit Start: 01, Bit Length: 01, Value: 0000000000000000
+Processor: 0000: Index 0028, MSR  : 0000002E, Bit Start: 10, Bit Length: 01, Value: 0000000000000000
+Processor: 0000: Index 0029, MSR  : 000001A4, Bit Start: 11, Bit Length: 01, Value: 0000000000000000
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+
+Dump final value for PcdCpuFeaturesSetting:
+ 85  34  00  00  C0  03  00  00 
+CoreInitializeMemoryServices:
+  BaseAddress - 0x3ED69000 Length - 0x6A97000 MinimalMemorySizeNeeded - 0x34D9000
+
+InstallProtocolInterface: EfiLoadedImage 45E687A8
+ProtectUefiImageCommon - 0x45E687A8
+  - 0x0000000045E40000 - 0x000000000002E000
+Unable to allocate GCD I/O space. EFI_STATUS = Not Found
+Unable to allocate GCD I/O space. EFI_STATUS = Not Found
+Unable to allocate GCD I/O space. EFI_STATUS = Not Found
+
+Unable to allocate GCD I/O space. EFI_STATUS = Not Found
+DxeMain: MemoryBaseAddress=0x3ED69000 MemoryLength=0x6A97000
+HOBLIST address in DXE = 0x423E2018
+Memory Allocation 0x0000000B 0xFD800000 - 0xFE7FFFFF
+Memory Allocation 0x0000000B 0xE0000000 - 0xEFFFFFFF
+Memory Allocation 0x0000000B 0xFED00000 - 0xFED00FFF
+Memory Allocation 0x0000000B 0xFB000000 - 0xFBFFFFFF
+
+Memory Allocation 0x00000004 0x45D40000 - 0x45E3FFFF
+Memory Allocation 0x00000003 0x47C86000 - 0x47C86FFF
+Memory Allocation 0x00000003 0x47C76000 - 0x47C85FFF
+Memory Allocation 0x00000003 0x47B56000 - 0x47C75FFF
+Memory Allocation 0x00000003 0x47A36000 - 0x47B55FFF
+Memory Allocation 0x00000003 0x478E6000 - 0x47A35FFF
+Memory Allocation 0x00000003 0x47796000 - 0x478E5FFF
+Memory Allocation 0x0000000B 0xC0000000 - 0xCFFFFFFF
+Memory Allocation 0x0000000B 0xFEE00000 - 0xFEE00FFF
+Memory Allocation 0x0000000B 0xFEDC0000 - 0xFEDDFFFF
+Memory Allocation 0x0000000B 0xFEDA0000 - 0xFEDA0FFF
+Memory Allocation 0x0000000B 0xFEDA1000 - 0xFEDA1FFF
+Memory Allocation 0x00000004 0x47336000 - 0x47795FFF
+Memory Allocation 0x00000004 0x47326000 - 0x47335FFF
+Memory Allocation 0x00000003 0x47322000 - 0x47325FFF
+Memory Allocation 0x00000003 0x4731F000 - 0x47321FFF
+Memory Allocation 0x00000004 0x4731E000 - 0x4731EFFF
+Memory Allocation 0x00000004 0x4731D000 - 0x4731DFFF
+Memory Allocation 0x00000004 0x4731C000 - 0x4731CFFF
+Memory Allocation 0x00000004 0x4731B000 - 0x4731BFFF
+Memory Allocation 0x00000003 0x47317000 - 0x4731AFFF
+Memory Allocation 0x00000003 0x47313000 - 0x47316FFF
+Memory Allocation 0x00000003 0x47311000 - 0x47312FFF
+Memory Allocation 0x00000003 0x4730E000 - 0x47310FFF
+Memory Allocation 0x00000003 0x4730D000 - 0x4730DFFF
+Memory Allocation 0x00000003 0x4730B000 - 0x4730CFFF
+Memory Allocation 0x00000003 0x47305000 - 0x4730AFFF
+Memory Allocation 0x00000003 0x47301000 - 0x47304FFF
+Memory Allocation 0x00000003 0x472FC000 - 0x47300FFF
+Memory Allocation 0x00000004 0x472EC000 - 0x472FBFFF
+Memory Allocation 0x00000004 0x47245000 - 0x472EBFFF
+Memory Allocation 0x00000004 0x47235000 - 0x47244FFF
+Memory Allocation 0x00000004 0x462E2000 - 0x47234FFF
+Memory Allocation 0x00000003 0x462E1000 - 0x462E1FFF
+Memory Allocation 0x00000003 0x462DF000 - 0x462E0FFF
+Memory Allocation 0x00000003 0x462DA000 - 0x462DEFFF
+Memory Allocation 0x00000003 0x462D6000 - 0x462D9FFF
+Memory Allocation 0x00000003 0x462C7000 - 0x462D5FFF
+Memory Allocation 0x00000003 0x462C6000 - 0x462C6FFF
+Memory Allocation 0x00000003 0x462B6000 - 0x462C5FFF
+Memory Allocation 0x00000003 0x462B3000 - 0x462B5FFF
+Memory Allocation 0x00000003 0x462B1000 - 0x462B2FFF
+Memory Allocation 0x00000003 0x462AD000 - 0x462B0FFF
+Memory Allocation 0x00000003 0x462AB000 - 0x462ACFFF
+Memory Allocation 0x00000003 0x462A8000 - 0x462AAFFF
+Memory Allocation 0x00000003 0x4629B000 - 0x462A7FFF
+Memory Allocation 0x00000003 0x46288000 - 0x4629AFFF
+Memory Allocation 0x00000003 0x46287000 - 0x46287FFF
+Memory Allocation 0x00000003 0x46285000 - 0x46286FFF
+
+Memory Allocation 0x00000003 0x46281000 - 0x46284FFF
+Memory Allocation 0x00000004 0x4627D000 - 0x46280FFF
+Memory Allocation 0x00000004 0x46273000 - 0x4627CFFF
+Memory Allocation 0x00000003 0x46269000 - 0x46272FFF
+Memory Allocation 0x00000004 0x46265000 - 0x46268FFF
+Memory Allocation 0x00000004 0x46255000 - 0x46264FFF
+Memory Allocation 0x00000003 0x46245000 - 0x46254FFF
+Memory Allocation 0x00000004 0x46244000 - 0x46244FFF
+
+Memory Allocation 0x00000004 0x46243000 - 0x46243FFF
+Memory Allocation 0x00000004 0x46242000 - 0x46242FFF
+Memory Allocation 0x00000004 0x46241000 - 0x46241FFF
+Memory Allocation 0x00000004 0x46240000 - 0x46240FFF
+Memory Allocation 0x00000004 0x461DE000 - 0x4623FFFF
+Memory Allocation 0x00000007 0x461DD000 - 0x461DDFFF
+Memory Allocation 0x00000004 0x4610A000 - 0x461DCFFF
+Memory Allocation 0x00000004 0x46109000 - 0x46109FFF
+Memory Allocation 0x00000004 0x46108000 - 0x46108FFF
+Memory Allocation 0x00000004 0x46104000 - 0x46107FFF
+Memory Allocation 0x00000004 0x460C3000 - 0x46103FFF
+Memory Allocation 0x00000003 0x460BE000 - 0x460C2FFF
+Memory Allocation 0x00000004 0x460BA000 - 0x460BDFFF
+Memory Allocation 0x00000004 0x46044000 - 0x460B9FFF
+
+Memory Allocation 0x00000003 0x45FCE000 - 0x46043FFF
+Memory Allocation 0x00000003 0x45FAD000 - 0x45FCDFFF
+Memory Allocation 0x00000004 0x45F9D000 - 0x45FACFFF
+Memory Allocation 0x0000000B 0xFEC00000 - 0xFEC00FFF
+Memory Allocation 0x00000003 0x45F96000 - 0x45F9CFFF
+Memory Allocation 0x00000003 0x45F94000 - 0x45F95FFF
+Memory Allocation 0x00000004 0x45F84000 - 0x45F93FFF
+Memory Allocation 0x00000004 0x45F7B000 - 0x45F83FFF
+Memory Allocation 0x00000003 0x45F72000 - 0x45F7AFFF
+Memory Allocation 0x00000004 0x45F6E000 - 0x45F71FFF
+Memory Allocation 0x00000004 0x45F5E000 - 0x45F6DFFF
+Memory Allocation 0x00000003 0x45F4E000 - 0x45F5DFFF
+Memory Allocation 0x00000004 0x45F4D000 - 0x45F4DFFF
+Memory Allocation 0x00000004 0x45F4C000 - 0x45F4CFFF
+Memory Allocation 0x00000004 0x45F4B000 - 0x45F4BFFF
+Memory Allocation 0x00000004 0x45F4A000 - 0x45F4AFFF
+Memory Allocation 0x00000004 0x45F49000 - 0x45F49FFF
+Memory Allocation 0x00000004 0x45F48000 - 0x45F48FFF
+Memory Allocation 0x00000004 0x45F47000 - 0x45F47FFF
+Memory Allocation 0x00000004 0x45F46000 - 0x45F46FFF
+Memory Allocation 0x00000004 0x45F45000 - 0x45F45FFF
+Memory Allocation 0x00000004 0x45F44000 - 0x45F44FFF
+Memory Allocation 0x00000004 0x45F43000 - 0x45F43FFF
+Memory Allocation 0x00000004 0x45F42000 - 0x45F42FFF
+Memory Allocation 0x00000004 0x45F41000 - 0x45F41FFF
+Memory Allocation 0x00000004 0x45F40000 - 0x45F40FFF
+Memory Allocation 0x00000004 0x45F3F000 - 0x45F3FFFF
+Memory Allocation 0x00000004 0x45F3E000 - 0x45F3EFFF
+Memory Allocation 0x00000004 0x45F3D000 - 0x45F3DFFF
+Memory Allocation 0x00000004 0x45F3C000 - 0x45F3CFFF
+Memory Allocation 0x00000004 0x45F38000 - 0x45F3BFFF
+Memory Allocation 0x00000004 0x45F36000 - 0x45F37FFF
+Memory Allocation 0x00000003 0x45F34000 - 0x45F35FFF
+
+Memory Allocation 0x00000004 0x45F30000 - 0x45F33FFF
+Memory Allocation 0x00000004 0x45F2A000 - 0x45F2FFFF
+Memory Allocation 0x00000003 0x45F24000 - 0x45F29FFF
+Memory Allocation 0x00000004 0x45F20000 - 0x45F23FFF
+Memory Allocation 0x00000004 0x45F19000 - 0x45F1FFFF
+Memory Allocation 0x00000003 0x45F12000 - 0x45F18FFF
+Memory Allocation 0x00000004 0x45F0E000 - 0x45F11FFF
+Memory Allocation 0x00000004 0x45F0C000 - 0x45F0DFFF
+Memory Allocation 0x00000003 0x45F0A000 - 0x45F0BFFF
+Memory Allocation 0x00000003 0x45F09000 - 0x45F09FFF
+Memory Allocation 0x00000004 0x45F05000 - 0x45F08FFF
+Memory Allocation 0x00000004 0x45F04000 - 0x45F04FFF
+Memory Allocation 0x00000003 0x45F03000 - 0x45F03FFF
+
+Memory Allocation 0x00000004 0x45EF3000 - 0x45F02FFF
+Memory Allocation 0x00000004 0x45ED6000 - 0x45EF2FFF
+Memory Allocation 0x00000003 0x45EB9000 - 0x45ED5FFF
+Memory Allocation 0x00000004 0x45EB8000 - 0x45EB8FFF
+Memory Allocation 0x00000004 0x45EB7000 - 0x45EB7FFF
+Memory Allocation 0x00000004 0x45EB6000 - 0x45EB6FFF
+Memory Allocation 0x00000004 0x45EB5000 - 0x45EB5FFF
+Memory Allocation 0x00000004 0x45EB4000 - 0x45EB4FFF
+Memory Allocation 0x00000004 0x45EB3000 - 0x45EB3FFF
+Memory Allocation 0x00000004 0x45EB2000 - 0x45EB2FFF
+Memory Allocation 0x00000004 0x45EB1000 - 0x45EB1FFF
+Memory Allocation 0x00000004 0x45EB0000 - 0x45EB0FFF
+Memory Allocation 0x00000004 0x45EAF000 - 0x45EAFFFF
+Memory Allocation 0x00000004 0x45EAE000 - 0x45EAEFFF
+Memory Allocation 0x00000003 0x45EAC000 - 0x45EADFFF
+Memory Allocation 0x00000004 0x45E9C000 - 0x45EABFFF
+Memory Allocation 0x00000004 0x45E6E000 - 0x45E9BFFF
+Memory Allocation 0x00000003 0x45E40000 - 0x45E6DFFF
+Memory Allocation 0x00000003 0x45E40000 - 0x45E6DFFF
+Memory Allocation 0x00000004 0x45D40000 - 0x45E3FFFF
+Memory Allocation 0x00000004 0x45800000 - 0x45BFFFFF
+Memory Allocation 0x00000007 0x45C00000 - 0x45D3FFFF
+Memory Allocation 0x00000004 0x3EC97000 - 0x3ED16FFF
+
+FV Hob            0x47B56000 - 0x47C75FFF
+FV Hob            0x47336000 - 0x47795FFF
+FV Hob            0x47245080 - 0x472EB07F
+FV2 Hob           0x47245080 - 0x472EB07F
+                  3DA4F21C-189D-46A3-98C0-AF814EBF01B0 - F641AC56-3B92-4154-8547-80EF6AAFF551
+FV3 Hob           0x47245080 - 0x472EB07F - 0x0 - 0x1
+                  3DA4F21C-189D-46A3-98C0-AF814EBF01B0 - F641AC56-3B92-4154-8547-80EF6AAFF551
+FV Hob            0x462E2080 - 0x4723407F
+FV2 Hob           0x462E2080 - 0x4723407F
+                  4F1C52D3-D824-4D2A-A2F0-EC40C23C5916 - 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792
+FV3 Hob           0x462E2080 - 0x4723407F - 0x0 - 0x1
+                  4F1C52D3-D824-4D2A-A2F0-EC40C23C5916 - 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792
+InstallProtocolInterface: EfiDecompress 45E67E80
+InstallProtocolInterface: EfiFirmwareVolumeBlock 423DF430
+InstallProtocolInterface: EfiDevicePath 423DF518
+InstallProtocolInterface: EfiFirmwareVolumeBlock 423DCB30
+InstallProtocolInterface: EfiDevicePath 423DCE98
+InstallProtocolInterface: EfiFirmwareVolumeBlock 423DC0B0
+InstallProtocolInterface: EfiDevicePath 423DCA98
+InstallProtocolInterface: EfiFirmwareVolumeBlock 423DC930
+InstallProtocolInterface: EfiDevicePath 423DC198
+InstallProtocolInterface: EfiFirmwareVolume2 423DC3B0
+InstallProtocolInterface: EfiFirmwareVolume2 423C20B0
+InstallProtocolInterface: EfiFirmwareVolume2 423C21B0
+InstallProtocolInterface: EfiFirmwareVolume2 423C0BB0
+InstallProtocolInterface: EE4E5898-3914-4259-9D6E-DC7BD79403CF 45E68AD8
+Loading driver 61422D26-81EC-47FF-B6CF-939EAEE73FBA
+InstallProtocolInterface: EfiLoadedImage 417C7040
+InstallProtocolInterface: EfiLoadedImageDevicePath 417C7F18
+ProtectUefiImageCommon - 0x417C7040
+  - 0x00000000457F4000 - 0x000000000000B000
+StatusCodeDxe.Entry(457F5150)
+InstallProtocolInterface: AmiDebugService 457FB888
+SmmAddMemoryRegion
+  MemBase    - 0x50001000
+  MemLength  - 0x1FE3000
+
+  Type       - 0x7
+  Attributes - 0xA
+
+SmmAddMemoryRegion
+  MemBase    - 0x50000000
+  MemLength  - 0x1000
+  Type       - 0x6
+  Attributes - 0x1A
+SmmAddMemoryRegion
+  MemBase    - 0x51FE4000
+  MemLength  - 0x1C000
+  Type       - 0x6
+  Attributes - 0x1A
+SmmInstallProtocolInterface: DA473D7F-4B31-4D63-92B7-3D905EF84B84 51FFBD50
+SmmInstallProtocolInterface: 28D4DD89-169E-49DD-8486-A200A2FD3C21 51FFBD88
+
+SmmInstallProtocolInterface: EfiLoadedImage 51FE14C0
+SmmInstallProtocolInterface: EfiLoadedImage 51FD96C0
+SMM.StatusCodeSmm.Entry(51FD02D0)
+SmmInstallProtocolInterface: AmiSmmDebugService 51FD56C8
